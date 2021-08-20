@@ -1,0 +1,30 @@
+.background {
+    height: 100%;
+    margin: 0;
+    background: aqua;
+    background: linear-gradient(to right,#ffadec, #bbff00);
+}
+
+h2 , button {
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+canvas {
+    border-color: black;
+    border-style: solid;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{
+        box-shadow: 7px 7px 20px #FF6F00;
+    }
+
+    to{
+        box-shadow: 5px 5px 18px #FFB300;
+    }
+}
